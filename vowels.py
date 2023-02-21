@@ -12,3 +12,5 @@ def LongestVowelSubsequence(s):
    if count < 5:
         return 0
     return max_len
+s = "aeiaaioooaauuaeiu"
+print(LongestVowelSubsequence(s))
