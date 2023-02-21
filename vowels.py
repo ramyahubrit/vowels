@@ -9,6 +9,6 @@ def LongestVowelSubsequence(s):
                count = 5
        if count == 5:
            max_len = len(s)
-    if count < 5:
+   if count < 5:
         return 0
     return max_len
